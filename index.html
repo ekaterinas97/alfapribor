@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1a1f78895e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container">
+            <div class="topbar__inner">
+                <ul class="topbar__list">
+                    <li class="topbar__item">
+                        <a class="topbar__link location" href="#">Address location</a>
+                    </li>
+                    <li class="topbar__item">
+                        <a class="topbar__link mail" href="#">somemail@yandex.ru</a>
+                    </li>
+                    <li class="topbar__item">
+                        <a class="topbar__link phone" href="#">8 (ХХХ) ХХХ-ХХ-ХХ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="logo">
+                        <a href="/" class="logo-text">
+                            <span class="logo-color">Logo</span>type
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <div class="burger">
+                            <button class="menu-btn">
+                                <span></span>
+                            </button>
+                        </div>
+                        <ul class="menu-list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">О нас</a>
+                            </li>
+                            <li class="menu__item menu__item-submenu">
+                                <a class="menu__link" href="#">
+                                    Каталог
+                                    <span class="menu__link-toggle"></span>
+                                </a>
+                                <ul class="submenu">
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Термометры</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Лабораторная посуда</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Лабораторная посуда</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Лабораторная посуда</a>
+                                    </li>
+                                    <li class="submenu__item">
+                                        <a class="submenu__link" href="#">Лабораторная посуда</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Новости</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="intro">
+        <div class="swiper-container intro__swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" style="background-image: url('img/slide-1.jpg');">
+                    <div class="swiper-slide__caption">
+                        <div class="container">
+                            <div class="intro__text">
+                                <h2 class="intro__title" data-caption-animate="animate__fadeInUp">Электроизмерительные приборы</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem possimus quisquam sapiente non impedit nobis reiciendis. Rem necessitatibus inventore quae.</p>
+                                <a href="#" class="intro__btn">Посмотреть каталог</a>
+                                <a href="#" class="intro__btn">Узнать больше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('img/slide-2.jpg');">
+                    <div class="swiper-slide__caption">
+                        <div class="container">
+                            <div class="intro__text">
+                                <h2 class="intro__title" data-caption-animate="animate__fadeInUp">Насосное оборудование</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem possimus quisquam sapiente non impedit nobis reiciendis. Rem necessitatibus inventore quae.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('img/slide-3.jpg');">
+                    <div class="swiper-slide__caption">
+                        <div class="container">
+                            <div class="intro__text">
+                                <h2 class="intro__title">Промышленная трубопроводная арматура</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem possimus quisquam sapiente non impedit nobis reiciendis. Rem necessitatibus inventore quae.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ipsam repellat eaque illum nesciunt cumque tempore, ea obcaecati magni cupiditate quaerat voluptate ratione praesentium, facilis eius nemo tenetur. Reiciendis, consectetur. Animi,
+                consectetur eveniet soluta repellendus rerum exercitationem ullam ipsum. Ipsam, dolores quisquam soluta sapiente voluptate alias magnam distinctio repudiandae assumenda. Est dolor expedita ipsam quidem facilis quasi quisquam, fugit itaque.
+                Voluptas ipsa, accusamus laboriosam, eum omnis cum rem ratione aperiam repudiandae harum sint, vero magnam ipsum. Ut, harum iusto? A voluptatem nemo aspernatur ratione facilis. Dolor ea molestiae minus expedita! Mollitia, consequatur.
+                Tenetur, temporibus minus eveniet necessitatibus libero, sapiente veritatis molestiae tempore rerum reiciendis at possimus dolore, numquam ducimus culpa! Corporis, optio ipsa. Non odio minima nam velit ut quo. Ipsam laudantium fugit reiciendis
+                expedita ad sapiente quaerat voluptatem quae a! Debitis iusto, ab sunt, autem quisquam dignissimos culpa expedita, distinctio cum voluptate nulla. Totam atque voluptas explicabo eum odio! Repudiandae reprehenderit nemo quisquam harum distinctio,
+                et quaerat sequi ratione cum corrupti delectus qui architecto. Optio dolores voluptas ad quos accusantium neque. Consequuntur alias magni iure nesciunt ratione earum vero. Voluptate ipsam corrupti in deserunt impedit sunt veniam non numquam
+                dolores, temporibus voluptatem ut, debitis sit consequatur laboriosam. Nemo optio impedit, fuga nulla maiores sed nesciunt aliquam mollitia praesentium ratione! Sunt, eaque ea sint possimus aut numquam! Sunt quo sit voluptas incidunt neque
+                praesentium quod dolores nam, iusto nesciunt. Blanditiis repellat quis unde deleniti atque ex architecto consequuntur praesentium? Dicta. Mollitia, fugit libero vero iure repellat at delectus sed assumenda, numquam doloremque expedita
+                officiis, officia dicta? Non corporis dignissimos sunt dolorum nisi veniam aperiam tenetur exercitationem suscipit, debitis nesciunt dolore. Placeat a commodi maiores repellendus! Commodi fuga repellat assumenda! Odio deleniti repellat
+                assumenda explicabo odit eveniet iure saepe harum, excepturi veritatis. Rerum nulla at ad! Ullam velit cumque minima dolor. Impedit aut saepe iste, perspiciatis incidunt dolore sit tenetur soluta unde, neque commodi aliquid! Rerum, veniam
+                quidem non quam vitae iure necessitatibus quod doloremque consequuntur quas adipisci numquam libero. Est. Provident dolor nulla itaque ipsam qui necessitatibus sequi unde eaque nostrum facere similique, cumque aut veniam nemo hic nesciunt
+                delectus sint enim, amet accusantium! Non incidunt quidem ea possimus deserunt! At similique optio dicta nisi expedita voluptas nemo laboriosam ullam. Accusantium quae, omnis veritatis dolor voluptatum nostrum optio at repellendus, nobis
+                corporis provident. Voluptates, iusto nisi corrupti temporibus id repellat! Repellat adipisci in facilis beatae maiores similique natus quam aliquid, sit molestias laboriosam totam corrupti aspernatur alias suscipit quidem minima molestiae
+                et ab recusandae fugiat nobis a mollitia. Voluptates, sunt? Nihil ullam minima fugiat incidunt officia non, quisquam soluta cumque pariatur itaque aspernatur ipsum deserunt inventore consequatur quasi? Sed atque quis odit quam impedit
+                aspernatur. Assumenda minus voluptates quod cupiditate? At alias illo voluptate ducimus quae, voluptas hic nihil ratione tenetur! Molestias, veniam quisquam a inventore repudiandae earum cumque eligendi rerum libero debitis eum tenetur
+                consectetur non. Doloribus, accusamus harum. Ea animi quasi excepturi, dolores voluptate autem similique officia doloremque accusamus, explicabo consequuntur. Corporis dolor dolorem impedit alias eum cum, labore sequi laboriosam rem odit
+                quia ea dignissimos ducimus repellat? Cum commodi cupiditate adipisci quibusdam facilis natus iste! Harum maiores ex quam assumenda illum sunt, reiciendis modi doloremque! Quaerat sint voluptates consectetur nesciunt unde consequatur sequi
+                tenetur aliquam deleniti repudiandae? Ex minima saepe excepturi architecto nam. Cum, atque optio incidunt veritatis similique laudantium doloremque, voluptatum repellendus dolor rem laborum dolorum eius, odit quas repudiandae aliquam recusandae
+                repellat ipsam nam culpa! Dolor, repudiandae rem praesentium eveniet cumque doloribus pariatur vel quia? Distinctio porro nihil quo eveniet harum minus, labore consectetur, eius fuga debitis ipsam similique! Consectetur minus voluptate
+                est laudantium cupiditate!</p>
+        </div>
+    </section>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@cycjimmy/swiper-animation@4/dist/swiper-animation.umd.min.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
